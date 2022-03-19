@@ -1,0 +1,275 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/greylight"
+    tools:context=".TopMainActivity">
+
+    <LinearLayout
+        android:id="@+id/linearLayout4"
+        android:layout_width="353dp"
+        android:layout_height="67dp"
+        android:background="@drawable/but"
+        android:orientation="horizontal"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent">
+
+        <TextView
+            android:id="@+id/textViewTopMain"
+
+            android:layout_width="342dp"
+            android:layout_height="match_parent"
+            android:background="@drawable/but"
+            android:gravity="center"
+            android:text="Temban Blaise"
+            android:textColor="@color/black"
+            android:textSize="30sp" />
+    </LinearLayout>
+
+
+    <HorizontalScrollView
+        android:layout_width="match_parent"
+        android:layout_height="295dp"
+        android:layout_margin="10dp"
+        app:layout_constraintBottom_toTopOf="@+id/linearLayout3"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/linearLayout4">
+
+        <LinearLayout
+            android:background="@drawable/but"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="horizontal">
+
+            <LinearLayout
+                android:layout_width="310dp"
+                android:layout_height="match_parent"
+                android:background="@drawable/btt"
+                android:orientation="vertical">
+
+                <ImageView
+                    android:layout_width="301dp"
+                    android:layout_height="200dp"
+                    android:layout_marginLeft="5dp"
+                    android:layout_marginTop="15dp"
+                    android:layout_marginRight="5dp"
+                    android:background="@drawable/qw"
+                    android:src="@drawable/job2" />
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="60dp"
+                    android:gravity="center"
+                    android:background="@drawable/but"
+                    android:textSize="20sp"
+                    android:textColor="@color/black"
+                    android:layout_margin="5dp"
+                    android:text="ICT University">
+
+                </TextView>
+
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="310dp"
+                android:layout_height="match_parent"
+                android:background="@drawable/btt"
+                android:orientation="vertical">
+
+                <ImageView
+                    android:layout_width="301dp"
+                    android:layout_height="200dp"
+                    android:layout_marginLeft="5dp"
+                    android:layout_marginTop="15dp"
+                    android:layout_marginRight="5dp"
+                    android:background="@drawable/qw"
+                    android:src="@drawable/home_wifi_button" />
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="60dp"
+                    android:gravity="center"
+                    android:background="@drawable/but"
+                    android:textSize="20sp"
+                    android:textColor="@color/black"
+                    android:layout_margin="5dp"
+                    android:text="ICT University">
+
+                </TextView>
+
+            </LinearLayout>
+
+
+            <LinearLayout
+                android:layout_width="310dp"
+                android:layout_height="match_parent"
+                android:background="@drawable/btt"
+                android:orientation="vertical">
+
+                <ImageView
+                    android:layout_width="301dp"
+                    android:layout_height="200dp"
+                    android:layout_marginLeft="5dp"
+                    android:layout_marginTop="15dp"
+                    android:layout_marginRight="5dp"
+                    android:background="@drawable/qw"
+                    android:src="@drawable/icon" />
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="60dp"
+                    android:gravity="center"
+                    android:background="@drawable/but"
+                    android:textSize="20sp"
+                    android:textColor="@color/black"
+                    android:layout_margin="5dp"
+                    android:text="ICT University">
+
+                </TextView>
+
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="310dp"
+                android:layout_height="match_parent"
+                android:background="@drawable/btt"
+                android:orientation="vertical">
+
+                <ImageView
+                    android:layout_width="301dp"
+                    android:layout_height="200dp"
+                    android:layout_marginLeft="5dp"
+                    android:layout_marginTop="15dp"
+                    android:layout_marginRight="5dp"
+                    android:background="@drawable/qw"
+                    android:src="@drawable/d" />
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="60dp"
+                    android:gravity="center"
+                    android:background="@drawable/but"
+                    android:textSize="20sp"
+                    android:textColor="@color/black"
+                    android:layout_margin="5dp"
+                    android:text="ICT University">
+
+                </TextView>
+
+            </LinearLayout>
+
+
+            <LinearLayout
+                android:layout_width="310dp"
+                android:layout_height="match_parent"
+                android:background="@drawable/btt"
+                android:orientation="vertical">
+
+                <ImageView
+                    android:layout_width="301dp"
+                    android:layout_height="200dp"
+                    android:layout_marginLeft="5dp"
+                    android:layout_marginTop="15dp"
+                    android:layout_marginRight="5dp"
+                    android:background="@drawable/qw"
+                    android:src="@drawable/scan_students" />
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="60dp"
+                    android:gravity="center"
+                    android:background="@drawable/but"
+                    android:textSize="20sp"
+                    android:textColor="@color/black"
+                    android:layout_margin="5dp"
+                    android:text="ICT University">
+
+                </TextView>
+
+            </LinearLayout>
+
+        </LinearLayout>
+    </HorizontalScrollView>
+
+
+    <LinearLayout
+        android:id="@+id/linearLayout3"
+        android:layout_width="match_parent"
+        android:layout_height="129dp"
+        android:layout_marginBottom="8dp"
+        android:background="@drawable/greylight3"
+        android:gravity="center"
+        android:orientation="vertical"
+        app:layout_constraintBottom_toTopOf="@+id/linearLayout2"
+        tools:ignore="MissingConstraints"
+        tools:layout_editor_absoluteX="6dp">
+
+        <Button
+            android:id="@+id/btnTopAddJob"
+            android:layout_width="153dp"
+            android:layout_height="wrap_content"
+            android:background="@drawable/btt"
+            android:text="Add Job" />
+
+        <Button
+            android:id="@+id/btnTopSearchJob"
+            android:layout_width="153dp"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="20dp"
+
+            android:background="@drawable/btt"
+            android:text="Search Job" />
+    </LinearLayout>
+
+    <LinearLayout
+        android:id="@+id/linearLayout2"
+        android:background="@drawable/grey"
+        android:layout_width="match_parent"
+        android:layout_height="61dp"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentRight="true"
+        android:layout_alignParentBottom="true"
+        android:layout_marginBottom="0dp"
+        android:gravity="center_horizontal"
+        android:orientation="horizontal"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintStart_toStartOf="parent">
+
+        <Button
+            android:id="@+id/btnToprefresh"
+            android:layout_width="55dp"
+            android:layout_height="50dp"
+            android:layout_marginTop="2dp"
+            android:background="@drawable/ic_baseline_refresh_24" />
+
+        <Button
+            android:id="@+id/home"
+            android:layout_width="55dp"
+            android:layout_height="50dp"
+            android:layout_marginLeft="15dp"
+            android:layout_marginTop="2dp"
+            android:background="@drawable/ic_baseline_home_24" />
+
+        <Button
+            android:id="@+id/account"
+            android:layout_width="55dp"
+            android:layout_height="50dp"
+            android:layout_marginLeft="15dp"
+            android:layout_marginTop="2dp"
+            android:background="@drawable/ic_baseline_account_circle_24" />
+
+        <Button
+            android:id="@+id/buttonLogOutMain"
+            android:layout_width="55dp"
+            android:layout_height="50dp"
+            android:layout_marginLeft="15dp"
+            android:layout_marginTop="2dp"
+            android:background="@drawable/ic_baseline_next_plan_24" />
+    </LinearLayout>
+</androidx.constraintlayout.widget.ConstraintLayout>

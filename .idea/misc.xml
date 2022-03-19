@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="DesignSurface">
+    <option name="filePathToZoomLevelMap">
+      <map>
+        <entry key="..\:/VICEWork/app/src/main/res/drawable/btt.xml" value="0.12685185185185185" />
+        <entry key="..\:/VICEWork/app/src/main/res/drawable/but.xml" value="1.1571428571428573" />
+        <entry key="..\:/VICEWork/app/src/main/res/drawable/butw.xml" value="0.2203125" />
+        <entry key="..\:/VICEWork/app/src/main/res/drawable/round.xml" value="0.18" />
+        <entry key="..\:/VICEWork/app/src/main/res/drawable/scrollregister.xml" value="0.3671875" />
+        <entry key="..\:/VICEWork/app/src/main/res/layout/activity_add_job.xml" value="1.0" />
+        <entry key="..\:/VICEWork/app/src/main/res/layout/activity_login.xml" value="0.20416666666666666" />
+        <entry key="..\:/VICEWork/app/src/main/res/layout/activity_main.xml" value="0.20416666666666666" />
+        <entry key="..\:/VICEWork/app/src/main/res/layout/activity_register.xml" value="0.20416666666666666" />
+        <entry key="..\:/all/VICEWork/app/src/main/res/drawable/btt.xml" value="0.215625" />
+        <entry key="..\:/all/VICEWork/app/src/main/res/drawable/but.xml" value="0.11302083333333333" />
+        <entry key="..\:/all/VICEWork/app/src/main/res/drawable/butw.xml" value="0.11302083333333333" />
+        <entry key="..\:/all/VICEWork/app/src/main/res/drawable/round.xml" value="0.215625" />
+        <entry key="..\:/all/VICEWork/app/src/main/res/layout/activity_add_job.xml" value="1.5" />
+        <entry key="..\:/all/VICEWork/app/src/main/res/layout/activity_login.xml" value="0.20416666666666666" />
+        <entry key="..\:/all/VICEWork/app/src/main/res/layout/activity_main.xml" value="0.20416666666666666" />
+        <entry key="..\:/all/VICEWork/app/src/main/res/layout/activity_my_applications.xml" value="0.19947916666666668" />
+        <entry key="..\:/all/VICEWork/app/src/main/res/layout/activity_my_jobs.xml" value="0.19947916666666668" />
+        <entry key="..\:/all/VICEWork/app/src/main/res/layout/activity_register.xml" value="0.25" />
+        <entry key="..\:/all/VICEWork/app/src/main/res/layout/activity_search_job.xml" value="0.19947916666666668" />
+        <entry key="..\:/all/VICEWork/app/src/main/res/layout/activity_splash__screen.xml" value="0.19947916666666668" />
+        <entry key="..\:/all/VICEWork/app/src/main/res/layout/activity_top_main.xml" value="0.19947916666666668" />
+        <entry key="..\:/all/VICEWork/app/src/main/res/layout/activity_top_search_job.xml" value="0.19947916666666668" />
+        <entry key="..\:/all/VICEWork/app/src/main/res/layout/activity_user_profile.xml" value="0.19947916666666668" />
+        <entry key="..\:/all/VICEWork/app/src/main/res/layout/activity_view_user_profile.xml" value="0.19947916666666668" />
+        <entry key="..\:/all/VICEWork/app/src/main/res/layout/single_item.xml" value="0.19947916666666668" />
+        <entry key="..\:/all/VICEWork/app/src/main/res/layout/single_item_myapplications.xml" value="0.19947916666666668" />
+        <entry key="..\:/all/VICEWork/app/src/main/res/layout/single_item_myjobs.xml" value="0.19947916666666668" />
+      </map>
+    </option>
+  </component>
+  <component name="ProjectRootManager" version="2" languageLevel="JDK_1_8" default="true" project-jdk-name="1.8" project-jdk-type="JavaSDK">
+    <output url="file://$PROJECT_DIR$/build/classes" />
+  </component>
+  <component name="ProjectType">
+    <option name="id" value="Android" />
+  </component>
+</project>

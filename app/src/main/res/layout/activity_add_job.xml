@@ -1,0 +1,111 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".AddJob">
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+
+            <TextView
+                android:id="@+id/textView"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="@string/add_a_new_job"
+                android:textSize="36sp"
+                android:textStyle="bold|italic" />
+
+            <EditText
+                android:id="@+id/editTextTopJobName"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="36dp"
+                android:autofillHints=""
+                android:ems="10"
+                android:hint="@string/job_name"
+                android:inputType="textPersonName" />
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="94dp"
+                android:orientation="horizontal">
+
+                <EditText
+                    android:id="@+id/editTextTopStartDate"
+                    android:layout_width="223dp"
+                    android:layout_height="match_parent"
+                    android:layout_marginTop="27dp"
+                    android:autofillHints=""
+                    android:ems="10"
+                    android:enabled="false"
+                    android:hint="@string/start_date"
+                    android:inputType="datetime" />
+
+                <ImageView
+                    android:id="@+id/imageViewTopdatepicker"
+                    android:layout_width="0dp"
+                    android:layout_height="match_parent"
+                    android:layout_weight="1"
+                    app:srcCompat="@android:drawable/ic_menu_my_calendar" />
+            </LinearLayout>
+
+            <EditText
+                android:id="@+id/editTextTopNumberJobPrice"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="28dp"
+                android:autofillHints=""
+                android:ems="10"
+                android:hint="@string/job_price"
+                android:inputType="number" />
+
+            <Spinner
+                android:id="@+id/TopamountPer"
+                android:layout_width="match_parent"
+                android:layout_height="44dp"
+                android:layout_marginTop="28dp" />
+
+            <EditText
+                android:id="@+id/editTextTopNumberPeopleNeeded"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="34dp"
+                android:autofillHints=""
+                android:ems="10"
+                android:hint="@string/number_of_people_needed"
+                android:inputType="number" />
+
+            <EditText
+                android:id="@+id/editTextTopNumberPhone"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="41dp"
+                android:autofillHints=""
+                android:ems="10"
+                android:hint="@string/phone_number"
+                android:inputType="number" />
+
+
+            <Button
+                android:id="@+id/btnTopAdd"
+                android:layout_width="match_parent"
+                android:background="@drawable/btt"
+                android:layout_height="80dp"
+                android:layout_marginTop="63dp"
+                android:text="@string/add" />
+        </LinearLayout>
+    </ScrollView>
+
+</androidx.constraintlayout.widget.ConstraintLayout>

@@ -1,0 +1,110 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <LinearLayout
+        android:layout_width="328dp"
+        android:layout_height="381dp"
+        android:layout_marginTop="10dp"
+        android:background="@drawable/greylight"
+        android:orientation="vertical"
+        android:padding="15dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.042">
+
+        <LinearLayout
+            android:id="@+id/viewprofilesingleactivity"
+            android:layout_width="match_parent"
+            android:layout_height="90dp"
+            android:orientation="horizontal">
+
+            <TextView
+                android:id="@+id/textViewjobgiver"
+                android:layout_width="177dp"
+                android:layout_height="match_parent"
+                android:fontFamily="serif"
+                android:textColor="@color/black"
+                android:textSize="18sp" />
+
+            <ImageView
+                android:id="@+id/imageViewuserimagesingleview"
+                android:layout_width="wrap_content"
+                android:layout_height="90dp"
+                android:layout_weight="1"
+                android:src="@drawable/default_profile_picture" />
+        </LinearLayout>
+
+        <TextView
+            android:id="@+id/textViewjobname"
+            android:layout_width="match_parent"
+            android:layout_height="37dp"
+            android:fontFamily="serif"
+            android:textColor="@color/black"
+            android:textSize="18sp" />
+
+        <TextView
+            android:id="@+id/textViewstartdate"
+            android:layout_width="match_parent"
+            android:layout_height="38dp"
+            android:fontFamily="serif"
+            android:textColor="@color/black"
+            android:textSize="18sp" />
+
+        <TextView
+            android:id="@+id/textViewnumberofpeople"
+            android:layout_width="match_parent"
+            android:layout_height="34dp"
+            android:fontFamily="serif"
+            android:textColor="@color/black"
+            android:textSize="18sp" />
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="54dp"
+            android:orientation="horizontal">
+
+            <TextView
+                android:id="@+id/textViewprice"
+                android:layout_width="186dp"
+                android:layout_height="match_parent"
+                android:layout_weight="1"
+                android:fontFamily="serif"
+                android:textColor="@color/black"
+                android:textSize="18sp" />
+
+            <TextView
+                android:id="@+id/textViewamountper"
+                android:layout_width="wrap_content"
+                android:layout_height="53dp"
+                android:layout_weight="1"
+                android:fontFamily="serif"
+                android:textColor="@color/black"
+                android:textSize="18sp" />
+        </LinearLayout>
+
+        <TextView
+            android:id="@+id/textViewphonenumber"
+            android:layout_width="match_parent"
+            android:layout_height="45dp"
+            android:textColor="@color/black"
+            android:fontFamily="serif"
+            android:textSize="18sp" />
+
+        <Button
+            android:id="@+id/btnapply"
+            android:layout_width="234dp"
+            android:layout_height="46dp"
+            android:layout_gravity="center"
+            android:background="@drawable/btt"
+            android:textSize="16sp"
+            android:text="APPLY" />
+
+    </LinearLayout>
+</androidx.constraintlayout.widget.ConstraintLayout>

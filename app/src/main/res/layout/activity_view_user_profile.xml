@@ -1,0 +1,171 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".ViewUserProfile"
+    android:background="@drawable/greylight"
+    >
+
+    <TextView
+        android:id="@+id/textView2"
+        android:layout_width="290dp"
+        android:layout_height="57dp"
+        android:background="@drawable/but"
+        android:fontFamily="serif"
+        android:gravity="center"
+        android:layout_margin="5dp"
+        android:text="Employer Profile"
+        android:textSize="26sp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.495"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        tools:ignore="MissingConstraints" />
+
+    <LinearLayout
+
+        android:layout_width="match_parent"
+        android:layout_height="475dp"
+        android:layout_margin="15dp"
+        android:background="@drawable/bl2"
+        android:orientation="vertical"
+        android:padding="12dp"
+        app:layout_constraintBottom_toTopOf="@+id/linearLayout5"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/textView2">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="191dp"
+            android:orientation="horizontal">
+
+
+            <ImageView
+                android:id="@+id/imuserpictureviewuser"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                app:srcCompat="@drawable/default_profile_picture" />
+
+        </LinearLayout>
+
+
+
+
+
+        <TextView
+            android:id="@+id/tuserfullnameviewuser"
+            android:layout_width="match_parent"
+            android:layout_height="45dp"
+            android:layout_marginTop="10dp"
+            android:background="@drawable/round"
+            android:drawableLeft="@drawable/ic_baseline_person_24"
+            android:fontFamily="serif"
+            android:gravity="left"
+            android:padding="10dp"
+            android:text="  TextView"
+            android:textSize="20sp" />
+        <TextView
+            android:id="@+id/tusernameviewuser"
+            android:layout_width="match_parent"
+            android:layout_height="45dp"
+            android:layout_marginTop="5dp"
+            android:background="@drawable/round"
+            android:drawableLeft="@drawable/ic_baseline_account_circle_24"
+            android:fontFamily="serif"
+            android:gravity="left"
+            android:padding="10dp"
+            android:text="  TextView"
+            android:textSize="18sp"
+            />
+
+        <TextView
+            android:id="@+id/tusertownviewuser"
+            android:layout_width="match_parent"
+            android:layout_height="45dp"
+            android:layout_marginTop="5dp"
+            android:background="@drawable/round"
+            android:drawableLeft="@drawable/ic_baseline_location_city_24"
+            android:fontFamily="serif"
+            android:gravity="left"
+            android:padding="10dp"
+            android:text="  TextView"
+            android:textSize="18sp" />
+
+        <TextView
+            android:id="@+id/tuserphonenumberuserview"
+            android:layout_width="match_parent"
+            android:layout_height="45dp"
+            android:layout_marginTop="5dp"
+            android:background="@drawable/round"
+            android:drawableLeft="@drawable/ic_baseline_phone_android_24"
+            android:fontFamily="serif"
+            android:gravity="left"
+            android:padding="10dp"
+            android:text="  TextView"
+            android:textSize="18sp" />
+
+        <TextView
+            android:id="@+id/tuseremailviewuser"
+            android:layout_width="match_parent"
+            android:layout_height="45dp"
+            android:layout_marginTop="5dp"
+            android:background="@drawable/round"
+            android:drawableLeft="@drawable/ic_baseline_email_24"
+            android:fontFamily="serif"
+            android:gravity="left"
+            android:padding="10dp"
+            android:text="  TextView"
+            android:textSize="18sp" />
+
+    </LinearLayout>
+
+
+    <LinearLayout
+        android:id="@+id/linearLayout5"
+        android:layout_width="match_parent"
+        android:layout_height="59dp"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentRight="true"
+        android:layout_alignParentBottom="true"
+        android:gravity="center_horizontal"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.448"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintVertical_bias="1.0">
+
+        <Button
+            android:id="@+id/btnrefresh"
+            android:layout_width="55dp"
+            android:layout_height="50dp"
+            android:layout_marginTop="2dp"
+            android:background="@drawable/ic_baseline_refresh_24" />
+
+        <Button
+            android:id="@+id/home"
+            android:layout_width="55dp"
+            android:layout_height="50dp"
+            android:layout_marginLeft="15dp"
+            android:layout_marginTop="2dp"
+            android:background="@drawable/ic_baseline_home_24" />
+
+        <Button
+            android:id="@+id/account"
+            android:layout_width="55dp"
+            android:layout_height="50dp"
+            android:layout_marginLeft="15dp"
+            android:layout_marginTop="2dp"
+            android:background="@drawable/ic_baseline_account_circle_24" />
+
+        <Button
+            android:id="@+id/buttonLogOutMain"
+            android:layout_width="55dp"
+            android:layout_height="50dp"
+            android:layout_marginLeft="15dp"
+            android:layout_marginTop="2dp"
+            android:background="@drawable/ic_baseline_next_plan_24" />
+    </LinearLayout>
+</androidx.constraintlayout.widget.ConstraintLayout>
