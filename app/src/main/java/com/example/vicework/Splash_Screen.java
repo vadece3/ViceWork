@@ -11,6 +11,7 @@ import com.example.vicework.MainActivity;
 
 public class Splash_Screen extends AppCompatActivity {
 
+
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);

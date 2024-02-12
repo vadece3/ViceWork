@@ -59,7 +59,6 @@ public class Register extends AppCompatActivity {
 
 
 
-
     private static final int CAMERA_REQUEST = 100;
     private static final int STORAGE_REQUEST = 200;
     String cameraPermission[];
@@ -127,7 +126,7 @@ public class Register extends AppCompatActivity {
     }
 
 
-    ///code to get image
+    ///code to get image from gallery
 
     @Override
     protected void onActivityResult(int requestCode, int resultCode, @Nullable Intent data) {
