@@ -4,7 +4,7 @@ To run the project you need to install android studio and import the project. Th
 
 #USED:
 
-- Android Studio
+- Android Studio 2024.1.1
 - XML
 - PHP
 - MySQL Database System
